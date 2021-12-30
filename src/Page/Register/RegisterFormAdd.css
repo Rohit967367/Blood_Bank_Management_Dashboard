@@ -1,0 +1,9 @@
+.registerFormAdd{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.registerFormLeft,
+.registerFormRight{
+    font: 50%
+}

@@ -1,0 +1,60 @@
+/* .donorFormContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.donorFormLeft
+.donorFormRight{
+    font: 50%;
+} */
+.invalid p{
+    color: red;
+    transition: 2s;
+}
+.invalid input{
+    background-color: rgb(250, 194, 194);
+}
+.donorFormInput{
+    margin-bottom: 20px;
+}
+.donorFormInput label{
+    font-size: 15px;
+    font-weight: bold;
+
+    
+    padding: 10px 0;
+    /* display: inline-block; */
+    display: block;
+}
+.donorFormInput input{
+    outline: none;
+    border: 1px solid gainsboro;
+    background-color: gainsboro;
+    width: 80%;
+    padding: 5px 10px;
+}
+
+
+.donorFormContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.donorFormLeft,
+.donorFormRight{
+    flex: 50%;
+}
+.donorFormContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.donorFormContainer button{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

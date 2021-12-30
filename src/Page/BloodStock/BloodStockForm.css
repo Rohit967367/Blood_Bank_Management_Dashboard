@@ -1,0 +1,13 @@
+.StockName label,
+.StockName input{
+    width: 100%;
+    display: block;
+    /* color: red; */
+}
+.BlooodStockButton {
+    display: flex;
+    /* background-color: black; */
+    color:white;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font: 1em sans-serif;
+}
+
+.containerSidebar{
+    display: flex;
+}
+/* .dashboardright{
+    flex: 5;
+    background-color: royalblue;
+} */

@@ -1,0 +1,74 @@
+.sidebar{
+    flex: 1;
+    height: calc(100vh - 50px);
+    position: sticky;
+    top: 50px;
+}
+.sidebarcontainer h3{
+    padding: 12px;
+    color: #000;
+/* color:crimson; */
+}
+/* .sidebarlist{ */
+    /* margin-bottom: 10px; */
+    /* height: calc(90vh - 50px);
+    width: 180px;
+    background-color: yellow; */
+/* } */
+
+
+.menu {
+    /* height: auto; */
+    width: 100%;
+    padding: 0;
+    /* background-color: teal; */
+    /* padding: 0 15%; */
+}
+.menu .menuList{
+    width: 100%;
+    height: 30px;
+    /* background-color: red; */
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    /* color: crimson; */
+    justify-content: center;
+    text-align: left;
+}
+.menuList a{
+    /* text-align: center; */
+
+    padding: 5px 10%;
+    border-radius: 0 10px 10px 0 ;
+    text-decoration: none;
+    /* list-style-type: none; */
+    width: 100%;
+    color: black;
+    /* color: rgb(212, 242, 252); */
+    /* color: crimson; */
+
+    /* background-color: #fff; */
+}
+/* .hom a:hover,
+.hom NavLink:active,
+.hom NavLink{
+} */
+/* .menu a, */
+.menu a:hover,
+.menu a:active,
+.menu a.menuL{
+    /* background-color: rgb(255, 255, 255); */
+    background-color: crimson;
+    background-color: rgb(212, 242, 252);
+    /* background-color: rgb(201, 24, 74); */
+    color: #000;
+    /* opacity: 0.5; */
+    
+    /* color: crimson; */
+    /* border-bottom: 1px solid #000; */
+}
+.sidebaricon{
+    margin-right: 5px;
+    font-size: 20px ;
+}

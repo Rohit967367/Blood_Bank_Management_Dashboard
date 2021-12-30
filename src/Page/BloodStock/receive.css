@@ -1,0 +1,5 @@
+.receive{
+    flex: 5;
+    height: calc(100vh - 50px);
+    /* background:linear-gradient(to left bottom, rgba(0, 102, 255, 0.7), rgba(38, 0, 255, 0.3)) */
+}

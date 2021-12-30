@@ -1,0 +1,9 @@
+.register{
+    flex: 5;
+}
+
+.registerHeading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
